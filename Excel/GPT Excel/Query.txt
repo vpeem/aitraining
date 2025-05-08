@@ -1,0 +1,22 @@
+1 how many employee left the organization
+
+2 Analyze exit trends by department.
+
+3 Create a report for employee exits
+
+4 Visualize exit trends over the years.
+
+5 Can you compare hiring versus exits?
+
+6 Analyze salary distribution across departments.
+
+7. Visualize salary trends across years.
+
+8. Analyze salary disparities by gender or ethnicity
+
+9. Visualize bonus distribution across departments
+
+10. Analyze correlations between salary and age.
+
+The correlation coefficient between salary and age is approximately -0.023. 
+This indicates a very weak or negligible negative relationship between the two variables.
