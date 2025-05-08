@@ -1,0 +1,495 @@
+
+Prompt
+
+create a table with serial no, university name , email and address
+
+Text File Content
+
+
+**1. University of Florida Online**
+
+-   **Website: https://ufonline.ufl.edu/**
+
+-   **Email: info@ufonline.ufl.edu**
+
+-   **Address: 341 Tigert Hall, Gainesville, FL 32611, USA**
+
+**2. Arizona State University Online**
+
+-   **Website: https://asuonline.asu.edu/**
+
+-   **Email: asuonline@asu.edu**
+
+-   **Address: 1151 S. Forest Avenue, Tempe, AZ 85287, USA**
+
+**3. Penn State World Campus**
+
+-   **Website: https://www.worldcampus.psu.edu/**
+
+-   **Email: admissions@worldcampus.psu.edu**
+
+-   **Address: 128 Outreach Building, University Park, PA 16802, USA**
+
+**4. University of Illinois Urbana-Champaign Online**
+
+-   **Website: https://online.illinois.edu/**
+
+-   **Email: online@illinois.edu**
+
+-   **Address: 901 West Illinois Street, Urbana, IL 61801, USA**
+
+**5. Ohio State University Online**
+
+-   **Website: https://online.osu.edu/**
+
+-   **Email: online@osu.edu**
+
+-   **Address: Enarson Hall, 154 W 12th Avenue, Columbus, OH 43210,
+    USA**
+
+**6. University of Southern California (USC) Online**
+
+-   **Website: https://online.usc.edu/**
+
+-   **Email: admissions@usc.edu (General university admissions)**
+
+-   **Address: University Park Campus, Los Angeles, CA 90089, USA**
+
+**7. Colorado State University Global**
+
+-   **Website: <https://csuglobal.edu/>**
+
+-   **Email: Admissions@CSUGlobal.edu**
+
+-   **Address: 585 Salida Way, Aurora, CO 80011, USA**
+
+**8. University of Maryland Global Campus (UMGC)**
+
+-   **Website: <https://www.umgc.edu/>**
+
+-   **Email: studentservices@umgc.edu**
+
+-   **Address: 3501 University Blvd. East, Adelphi, MD 20783, USA**
+
+**9. Indiana University Online (IU Online)**
+
+-   **Website: https://online.iu.edu/**
+
+-   **Email: iuo@iu.edu**
+
+-   **Address: 107 S Indiana Ave, Bloomington, IN 47405, USA**
+
+**10. Florida International University Online**
+
+-   **Website: https://fiuonline.fiu.edu/**
+
+-   **Email: online@fiu.edu**
+
+-   **Address: 11200 SW 8th Street, Miami, FL 33199, USA**
+
+**11. Southern New Hampshire University (SNHU) Online**
+
+-   **Website**: <https://www.snhu.edu/>
+
+-   **Email**: info@snhu.edu
+
+-   **Address**: 2500 North River Road, Manchester, NH 03106, USA
+
+**12. Western Governors University (WGU)**
+
+-   **Website**: <https://www.wgu.edu/>
+
+-   **Email**: info@wgu.edu
+
+-   **Address**: 4001 South 700 East, Suite 700, Salt Lake City, UT
+    84107, USA
+
+**13. Liberty University Online**
+
+-   **Website**: https://www.liberty.edu/online/
+
+-   **Email**: luoundergrad@liberty.edu (Undergraduate admissions)
+
+-   **Address**: 1971 University Blvd, Lynchburg, VA 24515, USA
+
+**14. University of Massachusetts Online (UMass Online)**
+
+-   **Website**: <https://www.umassonline.net/>
+
+-   **Email**: info@umassonline.net
+
+-   **Address**: 333 South Street, Shrewsbury, MA 01545, USA
+
+**15. Purdue University Global**
+
+-   **Website**: <https://www.purdueglobal.edu/>
+
+-   **Email**: PGadmissions@purdueglobal.edu
+
+-   **Address**: 2550 Northwestern Avenue, Suite 1100, West Lafayette,
+    IN 47906, USA
+
+**16. Oregon State University Ecampus**
+
+-   **Website**: https://ecampus.oregonstate.edu/
+
+-   **Email**: ecampus@oregonstate.edu
+
+-   **Address**: 4943 The Valley Library, Corvallis, OR 97331, USA
+
+**17. University of Arizona Online**
+
+-   **Website**: https://online.arizona.edu/
+
+-   **Email**: uazadmissions@arizona.edu
+
+-   **Address**: The University of Arizona, Tucson, AZ 85721, USA
+
+**18. Central Michigan University Global Campus**
+
+-   **Website**: https://www.cmich.edu/global/
+
+-   **Email**: cmuglobal@cmich.edu
+
+-   **Address**: 802 Industrial Drive, Mount Pleasant, MI 48858, USA
+
+**19. North Carolina State University at Raleigh Online**
+
+-   **Website**: https://online-distance.ncsu.edu/
+
+-   **Email**: distance@ncsu.edu
+
+-   **Address**: 1017 Main Campus Drive, Raleigh, NC 27606, USA
+
+**20. Michigan State University Online**
+
+-   **Website**: https://online.msu.edu/
+
+-   **Email**: reachmsu@msu.edu
+
+-   **Address**: Michigan State University, East Lansing, MI 48824, USA
+
+**1. Deakin University**
+
+-   **Website**: <https://www.deakin.edu.au/>
+
+-   **Email**: enquire@deakin.edu.au
+
+-   **Address**: 1 Gheringhap Street, Geelong, Victoria 3220, Australia
+
+**2. Charles Sturt University**
+
+-   **Website**: <https://www.csu.edu.au/>
+
+-   **Email**: info.csu@csu.edu.au
+
+-   **Address**: Panorama Avenue, Bathurst NSW 2795, Australia
+
+**3. University of New England (UNE)**
+
+-   **Website**: <https://www.une.edu.au/>
+
+-   **Email**: askune@une.edu.au
+
+-   **Address**: Armidale NSW 2351, Australia
+
+**4. Swinburne University of Technology**
+
+-   **Website**: <https://www.swinburne.edu.au/>
+
+-   **Email**: isu@swin.edu.au (International student unit)
+
+-   **Address**: John Street, Hawthorn, Victoria 3122, Australia
+
+**5. RMIT University**
+
+-   **Website**: <https://www.rmit.edu.au/>
+
+-   **Email**: info@rmit.edu.au
+
+-   **Address**: 124 La Trobe Street, Melbourne VIC 3000, Australia
+
+**6. University of Southern Queensland (USQ)**
+
+-   **Website**: <https://www.usq.edu.au/>
+
+-   **Email**: study@usq.edu.au
+
+-   **Address**: 487-535 West Street, Toowoomba QLD 4350, Australia
+
+**7. Curtin University**
+
+-   **Website**: <https://www.curtin.edu.au/>
+
+-   **Email**: future.students@curtin.edu.au
+
+-   **Address**: Kent Street, Bentley, Perth, Western Australia 6102
+
+**8. Monash University**
+
+-   **Website**: <https://www.monash.edu/>
+
+-   **Email**: study@monash.edu
+
+-   **Address**: Wellington Road, Clayton, Victoria 3800, Australia
+
+**9. University of South Australia (UniSA)**
+
+-   **Website**: <https://www.unisa.edu.au/>
+
+-   **Email**: Study@unisa.edu.au
+
+-   **Address**: 101 Currie Street, Adelaide, South Australia 5001
+
+**10. Macquarie University**
+
+-   **Website**: <https://www.mq.edu.au/>
+
+-   **Email**: ask.mq.edu.au
+
+-   **Address**: Macquarie University, Sydney, NSW 2109, Australia
+
+**1. University of London**
+
+-   **Website**: <https://london.ac.uk/>
+
+-   **Email**: enquiries@london.ac.uk
+
+-   **Address**: Senate House, Malet Street, London WC1E 7HU, United
+    Kingdom
+
+**2. The Open University**
+
+-   **Website**: <http://www.open.ac.uk/>
+
+-   **Email**: general.enquiries@open.ac.uk
+
+-   **Address**: Walton Hall, Milton Keynes MK7 6AA, United Kingdom
+
+**3. University of Edinburgh**
+
+-   **Website**: <https://www.ed.ac.uk/>
+
+-   **Email**: future.students@ed.ac.uk
+
+-   **Address**: Old College, South Bridge, Edinburgh, EH8 9YL, United
+    Kingdom
+
+**4. University of Manchester**
+
+-   **Website**: <https://www.manchester.ac.uk/>
+
+-   **Email**: study@manchester.ac.uk
+
+-   **Address**: Oxford Rd, Manchester M13 9PL, United Kingdom
+
+**5. University of Birmingham**
+
+-   **Website**: <https://www.birmingham.ac.uk/>
+
+-   **Email**: studenthelp@contacts.bham.ac.uk
+
+-   **Address**: Edgbaston, Birmingham B15 2TT, United Kingdom
+
+**6. University of Leeds**
+
+-   **Website**: <https://www.leeds.ac.uk/>
+
+-   **Email**: pgadmissions@leeds.ac.uk
+
+-   **Address**: Leeds, LS2 9JT, United Kingdom
+
+**7. University of Exeter**
+
+-   **Website**: <https://www.exeter.ac.uk/>
+
+-   **Email**: postgraduate@exeter.ac.uk
+
+-   **Address**: Stocker Rd, Exeter EX4 4PY, United Kingdom
+
+**8. University of Glasgow**
+
+-   **Website**: <https://www.gla.ac.uk/>
+
+-   **Email**: enquiry@glasgow.ac.uk
+
+-   **Address**: University of Glasgow, Glasgow G12 8QQ, United Kingdom
+
+**9. University of Nottingham**
+
+-   **Website**: <https://www.nottingham.ac.uk/>
+
+-   **Email**: enquiries@nottingham.ac.uk
+
+-   **Address**: University Park, Nottingham NG7 2RD, United Kingdom
+
+**10. Lancaster University**
+
+-   **Website**: <https://www.lancaster.ac.uk/>
+
+-   **Email**: admissions@lancaster.ac.uk
+
+-   **Address**: Bailrigg, Lancaster LA1 4YW, United Kingdom
+
+**1. University of London (UoL) - International Programmes**
+
+-   **Website**: <https://london.ac.uk/>
+
+-   **Email**: enquiries@london.ac.uk
+
+-   **Address**: Senate House, Malet Street, London WC1E 7HU, United
+    Kingdom
+
+**2. The Open University, UK**
+
+-   **Website**: <http://www.open.ac.uk/>
+
+-   **Email**: general.enquiries@open.ac.uk
+
+-   **Address**: Walton Hall, Milton Keynes MK7 6AA, United Kingdom
+
+**3. Universitat Oberta de Catalunya (UOC), Spain**
+
+-   **Website**: <https://www.uoc.edu/>
+
+-   **Email**: info@uoc.edu
+
+-   **Address**: Avinguda del Tibidabo, 39-43, 08035 Barcelona, Spain
+
+**4. University of Freiburg - Distance Learning, Germany**
+
+-   **Website**: https://www.distancelearning.uni-freiburg.de/
+
+-   **Email**: info@distancelearning.uni-freiburg.de
+
+-   **Address**: Fahnenbergplatz, 79098 Freiburg, Germany
+
+**5. Swiss Federal Institute of Technology in Zurich (ETH Zurich),
+Switzerland**
+
+-   **Website**: <https://www.ethz.ch/>
+
+-   **Email**: info@ethz.ch
+
+-   **Address**: Rämistrasse 101, 8092 Zürich, Switzerland
+
+**6. University of Rome Tor Vergata, Italy**
+
+-   **Website**: http://web.uniroma2.it/
+
+-   **Email**: international@uniroma2.it
+
+-   **Address**: Via Cracovia, 50, 00133 Roma RM, Italy
+
+**7. Utrecht University, Netherlands**
+
+-   **Website**: <https://www.uu.nl/>
+
+-   **Email**: info@uu.nl
+
+-   **Address**: Heidelberglaan 8, 3584 CS Utrecht, The Netherlands
+
+**8. University of Oslo, Norway**
+
+-   **Website**: <https://www.uio.no/>
+
+-   **Email**: postmottak@adm.uio.no
+
+-   **Address**: Problemveien 7, 0315 Oslo, Norway
+
+**9. Stockholm University, Sweden**
+
+-   **Website**: <https://www.su.se/>
+
+-   **Email**: studentexpedition@su.se
+
+-   **Address**: Universitetsvägen 10 A, 114 18 Stockholm, Sweden
+
+**10. University of Helsinki, Finland**
+
+-   **Website**: https://www.helsinki.fi/en
+
+-   **Email**: admissions@helsinki.fi
+
+-   **Address**: Yliopistonkatu 4, 00100 Helsinki, Finland
+
+**1. FernUniversität in Hagen**
+
+-   **Website**: <https://www.fernuni-hagen.de/>
+
+-   **Email**: studienberatung@fernuni-hagen.de
+
+-   **Address**: Universitätsstraße 47, 58097 Hagen, Germany
+
+**2. IU International University of Applied Sciences**
+
+-   **Website**: <https://www.iu.org/>
+
+-   **Email**: info@iu.org
+
+-   **Address**: Mülheimer Straße 38, 53604 Bad Honnef, Germany
+
+**3. Technical University of Kaiserslautern**
+
+-   **Website**: <https://www.uni-kl.de/>
+
+-   **Email**: info@distance-and-independent-studies.de
+
+-   **Address**: Gottlieb-Daimler-Straße, Building 47, 67663
+    Kaiserslautern, Germany
+
+**4. University of Freiburg - Distance Learning**
+
+-   **Website**: https://www.distancelearning.uni-freiburg.de/
+
+-   **Email**: info@distancelearning.uni-freiburg.de
+
+-   **Address**: Fahnenbergplatz, 79098 Freiburg, Germany
+
+**5. University of Oldenburg - Center for Lifelong Learning (C3L)**
+
+-   **Website**: https://uol.de/c3l/
+
+-   **Email**: c3l@uni-oldenburg.de
+
+-   **Address**: Uhlhornsweg 49-55, 26129 Oldenburg, Germany
+
+**6. Technical University of Munich - TUM Online**
+
+-   **Website**: https://www.tum.de/en/
+
+-   **Email**: studyinfo@tum.de
+
+-   **Address**: Arcisstraße 21, 80333 München, Germany
+
+**7. Ludwig Maximilian University of Munich - LMU Online**
+
+-   **Website**: https://www.lmu.de/en/
+
+-   **Email**: info@lmu.de
+
+-   **Address**: Geschwister-Scholl-Platz 1, 80539 München, Germany
+
+**8. University of Stuttgart - Distance Learning Programs**
+
+-   **Website**: https://www.uni-stuttgart.de/en/
+
+-   **Email**: fernstudium@uni-stuttgart.de
+
+-   **Address**: Keplerstraße 7, 70174 Stuttgart, Germany
+
+**9. RWTH Aachen University**
+
+-   **Website**: <https://www.rwth-aachen.de/>
+
+-   **Email**: info@rwth-aachen.de
+
+-   **Address**: Templergraben 55, 52062 Aachen, Germany
+
+**10. Berlin School of Business and Innovation (BSBI)**
+
+-   **Website**: <https://www.berlinsbi.com/>
+
+-   **Email**: info@berlinsbi.com
+
+-   **Address**: Potsdamer Straße 182, 10783 Berlin, Germany
