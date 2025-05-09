@@ -6,6 +6,7 @@ USE
 ---
 PUT api_key
 put any number into text box to convert into Roman Number
+put exit into text box to EXIT Code
 
 COLAB CODE
 ----------
