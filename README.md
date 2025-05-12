@@ -7,6 +7,8 @@ https://myoutspark.com/ultimate-resume-test/ - Test your Resume Score and Area o
 https://app.grammarly.com/
 
 
+ChatGPT - Compress and Decompress Data
+
 Compress
 
 compress the following text so that it retains the meaning but results in the minimum number of tokens which could be fed into a LLM like yourself as—is and produce the same output . 
