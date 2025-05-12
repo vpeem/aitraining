@@ -1,0 +1,30 @@
+INSATALL LIBRARY
+-----------------
+!pip install openai==0.28
+
+USE
+---
+PUT api_key
+put any number into text box to convert into Roman Number
+put exit into text box to EXIT Code
+
+COLAB CODE
+----------
+import openai
+openai.api_key = 'YOUR_API_KEY'
+#messages = [ {"role": "system", "content": 
+              #"You are a intelligent assistant."} ]
+while True:
+    message = input("User : ")
+    if message=="exit":
+        break
+    if message:
+        messages.append(
+            {"role": "user", "content": "Convert "+message+" into Roman Number"},
+        )
+        chat = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo", messages=messages
+        )
+    reply = chat.choices[0].message.content
+    print(f"ChatGPT: {reply}")
+    messages.append({"role": "assistant", "content": reply})
