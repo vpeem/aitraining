@@ -1,0 +1,195 @@
+'How to Use This Macro:
+'Press ALT + F11 to open the VBA editor
+
+'Insert a new module (Insert > Module)
+
+'Paste the entire code above into the module
+
+'Close the VBA editor
+
+'Two Ways to Use the Function:
+'1. As a Worksheet Function:
+'You can use =NumberToWords(A1) in any cell to convert the number in cell A1 to words.
+
+
+' VBA Function to Convert Number to Words
+Function NumberToWords(ByVal MyNumber)
+    Dim Units As String
+    Dim Tens As String
+    Dim Hundreds As String
+    Dim TempStr As String
+    Dim DecimalPlace As Integer
+    Dim Count As Integer
+    Dim DecimalNumber As String
+    Dim WholeNumber As Double
+    Dim DecimalDigits As String
+    
+    ReDim Place(9) As String
+    Place(2) = " Thousand "
+    Place(3) = " Million "
+    Place(4) = " Billion "
+    Place(5) = " Trillion "
+    
+    ' Convert MyNumber to string and trim whitespace
+    MyNumber = Trim(CStr(MyNumber))
+    
+    ' Find decimal position
+    DecimalPlace = InStr(MyNumber, ".")
+    
+    ' Convert Whole and Decimal portions
+    If DecimalPlace > 0 Then
+        WholeNumber = CDbl(Mid(MyNumber, 1, DecimalPlace - 1))
+        DecimalDigits = Mid(MyNumber, DecimalPlace + 1)
+        
+        ' Round to 2 decimal places
+        If Len(DecimalDigits) > 2 Then
+            DecimalDigits = Left(DecimalDigits, 2)
+        End If
+        
+        DecimalNumber = " and " & DecimalDigits & "/100"
+    Else
+        WholeNumber = CDbl(MyNumber)
+    End If
+    
+    TempStr = ""
+    
+    ' Convert Whole Number portion
+    Count = 1
+    Do While WholeNumber > 0
+        Hundreds = ConvertHundreds(CInt(WholeNumber Mod 1000))
+        If Hundreds <> "" Then
+            TempStr = Hundreds & Place(Count) & TempStr
+        End If
+        
+        If WholeNumber >= 1000 Then
+            WholeNumber = WholeNumber \ 1000
+        Else
+            WholeNumber = 0
+        End If
+        Count = Count + 1
+    Loop
+    
+    ' Handle zero case
+    If TempStr = "" Then
+        TempStr = "Zero"
+    End If
+    
+    ' Add decimal portion if it exists
+    If DecimalPlace > 0 Then
+        TempStr = TempStr & DecimalNumber
+    End If
+    
+    NumberToWords = Trim(TempStr)
+End Function
+
+' Conversion for hundreds place
+Private Function ConvertHundreds(ByVal MyNumber)
+    Dim Result As String
+    
+    If MyNumber = 0 Then Exit Function
+    
+    MyNumber = Right("000" & MyNumber, 3)
+    
+    ' Convert hundreds place
+    If Mid(MyNumber, 1, 1) <> "0" Then
+        Result = ConvertDigit(Mid(MyNumber, 1, 1)) & " Hundred "
+    End If
+    
+    ' Convert tens and units place
+    If Mid(MyNumber, 2, 1) <> "0" Then
+        Result = Result & ConvertTens(Mid(MyNumber, 2))
+    Else
+        Result = Result & ConvertDigit(Mid(MyNumber, 3))
+    End If
+    
+    ConvertHundreds = Result
+End Function
+
+' Conversion for tens place
+Private Function ConvertTens(ByVal MyTens)
+    Dim Result As String
+    
+    If MyTens = 0 Then Exit Function
+    
+    ' Handle teens (10-19)
+    If Val(Left(MyTens, 1)) = 1 Then
+        Select Case Val(MyTens)
+            Case 10: Result = "Ten"
+            Case 11: Result = "Eleven"
+            Case 12: Result = "Twelve"
+            Case 13: Result = "Thirteen"
+            Case 14: Result = "Fourteen"
+            Case 15: Result = "Fifteen"
+            Case 16: Result = "Sixteen"
+            Case 17: Result = "Seventeen"
+            Case 18: Result = "Eighteen"
+            Case 19: Result = "Nineteen"
+        End Select
+    Else
+        ' Handle multiples of ten (20-90)
+        Select Case Val(Left(MyTens, 1))
+            Case 2: Result = "Twenty "
+            Case 3: Result = "Thirty "
+            Case 4: Result = "Forty "
+            Case 5: Result = "Fifty "
+            Case 6: Result = "Sixty "
+            Case 7: Result = "Seventy "
+            Case 8: Result = "Eighty "
+            Case 9: Result = "Ninety "
+        End Select
+        
+        ' Add ones digit
+        Result = Result & ConvertDigit(Right(MyTens, 1))
+    End If
+    
+    ConvertTens = Result
+End Function
+
+' Conversion for single digit
+Private Function ConvertDigit(ByVal MyDigit)
+    Select Case Val(MyDigit)
+        Case 1: ConvertDigit = "One"
+        Case 2: ConvertDigit = "Two"
+        Case 3: ConvertDigit = "Three"
+        Case 4: ConvertDigit = "Four"
+        Case 5: ConvertDigit = "Five"
+        Case 6: ConvertDigit = "Six"
+        Case 7: ConvertDigit = "Seven"
+        Case 8: ConvertDigit = "Eight"
+        Case 9: ConvertDigit = "Nine"
+        Case Else: ConvertDigit = ""
+    End Select
+End Function
+
+' Macro to convert selected cells to words
+Sub ConvertNumberToWords()
+    Dim rng As Range
+    Dim cell As Range
+    Dim outputCell As Range
+    
+    On Error Resume Next
+    Set rng = Application.InputBox("Select the cells with numbers to convert", _
+                                  "Number to Words", _
+                                  Selection.Address, , , , , 8)
+    On Error GoTo 0
+    
+    If rng Is Nothing Then Exit Sub
+    
+    Set outputCell = Application.InputBox("Select the first cell where you want the words to appear", _
+                                         "Output Location", , , , , , 8)
+    If outputCell Is Nothing Then Exit Sub
+    
+    Application.ScreenUpdating = False
+    
+    Dim i As Long
+    For i = 1 To rng.Count
+        If IsNumeric(rng(i).Value) Then
+            outputCell.Offset(i - 1, 0).Value = NumberToWords(rng(i).Value)
+        Else
+            outputCell.Offset(i - 1, 0).Value = "Not a number"
+        End If
+    Next i
+    
+    Application.ScreenUpdating = True
+    MsgBox "Conversion complete!", vbInformation
+End Sub
